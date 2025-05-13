@@ -1,0 +1,11 @@
+CLEARING THE LOGS
+shred -fzvu /var/log/auth.log
+--logs are stored in the /var/log dir
+--shred permanently deletes the the logs permenently by re writing the data multiple times with 1s and 0s
+--this erases the traces of the data to th absolute peak
+
+CLEARING THE BASH HISTORY FILE
+>.bash_history
+--null redirect
+--this clears the file
+-- for every user theres a bash_history file
